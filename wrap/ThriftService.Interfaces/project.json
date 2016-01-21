@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net451": {
+      "wrappedProject": "../../ThriftService.Interfaces/ThriftService.Interfaces.csproj",
+      "bin": {
+        "assembly": "../../ThriftService.Interfaces/obj/{configuration}/ThriftService.Interfaces.dll",
+        "pdb": "../../ThriftService.Interfaces/obj/{configuration}/ThriftService.Interfaces.pdb"
+      },
+      "dependencies": {
+        "ApacheThrift": "0.9.3"
+      }
+    }
+  }
+}

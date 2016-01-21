@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{038BC2F9-A555-4C4C-B421-CFCA9898C9B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DF409657-3906-49B0-B43E-71F7DBF7AA0A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankService.Interfaces", "src\BankService.Interfaces\BankService.Interfaces.csproj", "{92FFD7D5-F598-449E-A14E-43480FAFC79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankService", "src\BankService\BankService.csproj", "{D4C52C7C-40BD-47EC-B817-A790F83F57C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InternalServices", "InternalServices", "{52966A00-24D9-44F2-A379-E55CD7AB6924}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "WebAppDemo", "src\WebAppDemo\WebAppDemo.xproj", "{F33DB522-55FF-424E-B71F-94DC973D31EE}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BankWebApi", "src\BankWebApi\BankWebApi.xproj", "{DB5237BA-F85F-4ADF-99D0-79ED7E8D2504}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92FFD7D5-F598-449E-A14E-43480FAFC79A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92FFD7D5-F598-449E-A14E-43480FAFC79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92FFD7D5-F598-449E-A14E-43480FAFC79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92FFD7D5-F598-449E-A14E-43480FAFC79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4C52C7C-40BD-47EC-B817-A790F83F57C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4C52C7C-40BD-47EC-B817-A790F83F57C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4C52C7C-40BD-47EC-B817-A790F83F57C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4C52C7C-40BD-47EC-B817-A790F83F57C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33DB522-55FF-424E-B71F-94DC973D31EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33DB522-55FF-424E-B71F-94DC973D31EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33DB522-55FF-424E-B71F-94DC973D31EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33DB522-55FF-424E-B71F-94DC973D31EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB5237BA-F85F-4ADF-99D0-79ED7E8D2504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5237BA-F85F-4ADF-99D0-79ED7E8D2504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5237BA-F85F-4ADF-99D0-79ED7E8D2504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5237BA-F85F-4ADF-99D0-79ED7E8D2504}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92FFD7D5-F598-449E-A14E-43480FAFC79A} = {52966A00-24D9-44F2-A379-E55CD7AB6924}
+		{D4C52C7C-40BD-47EC-B817-A790F83F57C8} = {52966A00-24D9-44F2-A379-E55CD7AB6924}
+		{52966A00-24D9-44F2-A379-E55CD7AB6924} = {038BC2F9-A555-4C4C-B421-CFCA9898C9B1}
+		{F33DB522-55FF-424E-B71F-94DC973D31EE} = {038BC2F9-A555-4C4C-B421-CFCA9898C9B1}
+		{DB5237BA-F85F-4ADF-99D0-79ED7E8D2504} = {52966A00-24D9-44F2-A379-E55CD7AB6924}
+	EndGlobalSection
+EndGlobal

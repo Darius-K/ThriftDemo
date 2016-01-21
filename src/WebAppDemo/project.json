@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "ApacheThrift": "0.9.3",  
+    "Microsoft.AspNet.IISPlatformHandler": "1.0.0-rc1-final",
+    "Microsoft.AspNet.Mvc": "6.0.0-rc1-final",    
+    "Microsoft.AspNet.Server.Kestrel": "1.0.0-rc1-final",
+    "RestSharp": "105.2.3"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Server.Kestrel"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "BankService.Interfaces": "1.0.0-*"
+      }
+    }
+  },
+
+  "exclude": [
+    "wwwroot",
+  ],
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}

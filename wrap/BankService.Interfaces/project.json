@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net46": {
+      "wrappedProject": "../../src/BankService.Interfaces/BankService.Interfaces.csproj",
+      "bin": {
+        "assembly": "../../src/BankService.Interfaces/obj/{configuration}/BankService.Interfaces.dll",
+        "pdb": "../../src/BankService.Interfaces/obj/{configuration}/BankService.Interfaces.pdb"
+      },
+      "dependencies": {
+        "ApacheThrift": "0.9.3"
+      }
+    },
+    "net451": {
+      "wrappedProject": "../../src/BankService.Interfaces/BankService.Interfaces.csproj",
+      "bin": {
+        "assembly": "../../src/BankService.Interfaces/obj/{configuration}/BankService.Interfaces.dll",
+        "pdb": "../../src/BankService.Interfaces/obj/{configuration}/BankService.Interfaces.pdb"
+      },
+      "dependencies": {
+        "ApacheThrift": "0.9.3"
+      }
+    }
+  }
+}
